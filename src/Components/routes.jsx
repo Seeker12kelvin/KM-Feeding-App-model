@@ -8,13 +8,13 @@ import Loading from './Loading'
 import PersonalInfo from '../Pages/Personal/PersonalInfo'
 
   const router = createBrowserRouter([
+    // {
+    //   path:'/',
+    //   element: <Loading />,
+    //   errorElement: <div>Page does not exist...</div>
+    // },
     {
-      path:'/',
-      element: <Loading />,
-      errorElement: <div>Page does not exist...</div>
-    },
-    {
-      path: '/home',
+      path: '/',
       element: <Home />,
     },
     {

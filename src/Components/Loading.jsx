@@ -15,9 +15,12 @@ const Loading = () => {
     <motion.div
     className='w-full h-screen flex items-center justify-center'
     animate={{rotate: 360}}
-    transition={{
-      duration: 2,
-      ease: "easeInOut"}}
+    transition={
+      {
+        duration: 2,
+        ease: "easeInOut"
+      }
+    }
     onAnimationComplete={handleRoute}>
       <Logo size={'h-40'} />
     </motion.div>
