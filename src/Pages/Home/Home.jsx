@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Home.module.css"
 import Dining_Pic from "../../../public/Group.png"
+import { GoHome } from "react-icons/go";
+import { HiArchive } from "react-icons/hi";
+import { IoMdPerson } from "react-icons/io";
 import { motion } from 'framer-motion'
 import { FaNairaSign } from "react-icons/fa6";
 
@@ -73,15 +76,15 @@ const Home = () => {
           </div>
         </section>
 
-        {/* <section className='w-full border-2 rounded-xl border-[#C0C0C0] h-10 text-white px-10 py-7 text-2xl'>
+        <section className='w-full border-2 rounded-xl border-[#C0C0C0] h-10 text-white px-10 py-7 text-2xl'>
           <nav className='w-full h-full'>
             <ul className='w-full h-full flex justify-between items-center'>
               <li><GoHome /></li>
               <li><HiArchive /></li>
-              <li><MdPerson /></li>
+              <li><IoMdPerson /></li>
             </ul>
           </nav>
-        </section> */}
+        </section>
     </motion.main>
   )
 }
